@@ -1,0 +1,297 @@
+\contentsline {part}{I\hspace {1em}Introduction to \pkg {expl3} and this document}{1}{part.1}
+\contentsline {section}{\numberline {1}Naming functions and variables}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1}Terminological inexactitude}{3}{subsection.1.1.1}
+\contentsline {section}{\numberline {2}Documentation conventions}{3}{section.1.2}
+\contentsline {paragraph}{Fully expandable functions}{4}{section*.2}
+\contentsline {paragraph}{Restricted expandable functions}{4}{section*.3}
+\contentsline {paragraph}{Conditional functions}{4}{section*.4}
+\contentsline {paragraph}{Changes to behaviour}{5}{section*.5}
+\contentsline {section}{\numberline {3}Formal language conventions which apply generally}{5}{section.1.3}
+\contentsline {section}{\numberline {4}T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}{} concepts not supported by \LaTeX 3{}}{5}{section.1.4}
+\contentsline {part}{II\hspace {1em}The \pkg {l3bootstrap} package\\ Bootstrap code}{6}{part.2}
+\contentsline {section}{\numberline {1}Using the \LaTeX 3 modules}{6}{section.2.1}
+\contentsline {part}{III\hspace {1em}The \pkg {l3names} package\\ Namespace for primitives}{7}{part.3}
+\contentsline {section}{\numberline {1}Setting up the \LaTeX 3 programming language}{7}{section.3.1}
+\contentsline {part}{IV\hspace {1em}The \pkg {l3basics} package\\ Basic definitions}{8}{part.4}
+\contentsline {section}{\numberline {1}No operation functions}{8}{section.4.1}
+\contentsline {section}{\numberline {2}Grouping material}{8}{section.4.2}
+\contentsline {section}{\numberline {3}Control sequences and functions}{9}{section.4.3}
+\contentsline {subsection}{\numberline {3.1}Defining functions}{9}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {3.2}Defining new functions using parameter text}{10}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {3.3}Defining new functions using the signature}{11}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {3.4}Copying control sequences}{14}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {3.5}Deleting control sequences}{14}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {3.6}Showing control sequences}{14}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {3.7}Converting to and from control sequences}{15}{subsection.4.3.7}
+\contentsline {section}{\numberline {4}Analysing control sequence names}{16}{section.4.4}
+\contentsline {section}{\numberline {5}Using or removing tokens and arguments}{16}{section.4.5}
+\contentsline {subsection}{\numberline {5.1}Selecting tokens from delimited arguments}{18}{subsection.4.5.1}
+\contentsline {section}{\numberline {6}Predicates and conditionals}{19}{section.4.6}
+\contentsline {subsection}{\numberline {6.1}Tests on control sequences}{20}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {6.2}Primitive conditionals}{20}{subsection.4.6.2}
+\contentsline {part}{V\hspace {1em}The \pkg {l3expan} package\\ Argument expansion}{22}{part.5}
+\contentsline {section}{\numberline {1}Defining new variants}{22}{section.5.1}
+\contentsline {section}{\numberline {2}Methods for defining variants}{23}{section.5.2}
+\contentsline {section}{\numberline {3}Introducing the variants}{24}{section.5.3}
+\contentsline {section}{\numberline {4}Manipulating the first argument}{26}{section.5.4}
+\contentsline {section}{\numberline {5}Manipulating two arguments}{28}{section.5.5}
+\contentsline {section}{\numberline {6}Manipulating three arguments}{29}{section.5.6}
+\contentsline {section}{\numberline {7}Unbraced expansion}{30}{section.5.7}
+\contentsline {section}{\numberline {8}Preventing expansion}{31}{section.5.8}
+\contentsline {section}{\numberline {9}Controlled expansion}{32}{section.5.9}
+\contentsline {section}{\numberline {10}Internal functions}{34}{section.5.10}
+\contentsline {part}{VI\hspace {1em}The \pkg {l3tl} package\\ Token lists}{35}{part.6}
+\contentsline {section}{\numberline {1}Creating and initialising token list variables}{35}{section.6.1}
+\contentsline {section}{\numberline {2}Adding data to token list variables}{36}{section.6.2}
+\contentsline {section}{\numberline {3}Modifying token list variables}{37}{section.6.3}
+\contentsline {section}{\numberline {4}Reassigning token list category codes}{37}{section.6.4}
+\contentsline {section}{\numberline {5}Token list conditionals}{38}{section.6.5}
+\contentsline {section}{\numberline {6}Mapping to token lists}{40}{section.6.6}
+\contentsline {section}{\numberline {7}Using token lists}{42}{section.6.7}
+\contentsline {section}{\numberline {8}Working with the content of token lists}{43}{section.6.8}
+\contentsline {section}{\numberline {9}The first token from a token list}{44}{section.6.9}
+\contentsline {section}{\numberline {10}Using a single item}{47}{section.6.10}
+\contentsline {section}{\numberline {11}Viewing token lists}{49}{section.6.11}
+\contentsline {section}{\numberline {12}Constant token lists}{49}{section.6.12}
+\contentsline {section}{\numberline {13}Scratch token lists}{50}{section.6.13}
+\contentsline {part}{VII\hspace {1em}The \pkg {l3str} package: Strings}{51}{part.7}
+\contentsline {section}{\numberline {1}Building strings}{51}{section.7.1}
+\contentsline {section}{\numberline {2}Adding data to string variables}{52}{section.7.2}
+\contentsline {section}{\numberline {3}Modifying string variables}{53}{section.7.3}
+\contentsline {section}{\numberline {4}String conditionals}{53}{section.7.4}
+\contentsline {section}{\numberline {5}Mapping to strings}{55}{section.7.5}
+\contentsline {section}{\numberline {6}Working with the content of strings}{57}{section.7.6}
+\contentsline {section}{\numberline {7}String manipulation}{60}{section.7.7}
+\contentsline {section}{\numberline {8}Viewing strings}{61}{section.7.8}
+\contentsline {section}{\numberline {9}Constant token lists}{62}{section.7.9}
+\contentsline {section}{\numberline {10}Scratch strings}{62}{section.7.10}
+\contentsline {part}{VIII\hspace {1em}The \pkg {l3quark} package\\ Quarks}{63}{part.8}
+\contentsline {section}{\numberline {1}Quarks}{63}{section.8.1}
+\contentsline {section}{\numberline {2}Defining quarks}{63}{section.8.2}
+\contentsline {section}{\numberline {3}Quark tests}{64}{section.8.3}
+\contentsline {section}{\numberline {4}Recursion}{64}{section.8.4}
+\contentsline {section}{\numberline {5}An example of recursion with quarks}{65}{section.8.5}
+\contentsline {section}{\numberline {6}Scan marks}{66}{section.8.6}
+\contentsline {part}{IX\hspace {1em}The \pkg {l3seq} package\\ Sequences and stacks}{68}{part.9}
+\contentsline {section}{\numberline {1}Creating and initialising sequences}{68}{section.9.1}
+\contentsline {section}{\numberline {2}Appending data to sequences}{69}{section.9.2}
+\contentsline {section}{\numberline {3}Recovering items from sequences}{69}{section.9.3}
+\contentsline {section}{\numberline {4}Recovering values from sequences with branching}{71}{section.9.4}
+\contentsline {section}{\numberline {5}Modifying sequences}{72}{section.9.5}
+\contentsline {section}{\numberline {6}Sequence conditionals}{72}{section.9.6}
+\contentsline {section}{\numberline {7}Mapping to sequences}{73}{section.9.7}
+\contentsline {section}{\numberline {8}Using the content of sequences directly}{74}{section.9.8}
+\contentsline {section}{\numberline {9}Sequences as stacks}{75}{section.9.9}
+\contentsline {section}{\numberline {10}Sequences as sets}{76}{section.9.10}
+\contentsline {section}{\numberline {11}Constant and scratch sequences}{77}{section.9.11}
+\contentsline {section}{\numberline {12}Viewing sequences}{78}{section.9.12}
+\contentsline {part}{X\hspace {1em}The \pkg {l3int} package\\ Integers}{79}{part.10}
+\contentsline {section}{\numberline {1}Integer expressions}{79}{section.10.1}
+\contentsline {section}{\numberline {2}Creating and initialising integers}{80}{section.10.2}
+\contentsline {section}{\numberline {3}Setting and incrementing integers}{81}{section.10.3}
+\contentsline {section}{\numberline {4}Using integers}{82}{section.10.4}
+\contentsline {section}{\numberline {5}Integer expression conditionals}{82}{section.10.5}
+\contentsline {section}{\numberline {6}Integer expression loops}{84}{section.10.6}
+\contentsline {section}{\numberline {7}Integer step functions}{86}{section.10.7}
+\contentsline {section}{\numberline {8}Formatting integers}{87}{section.10.8}
+\contentsline {section}{\numberline {9}Converting from other formats to integers}{88}{section.10.9}
+\contentsline {section}{\numberline {10}Random integers}{89}{section.10.10}
+\contentsline {section}{\numberline {11}Viewing integers}{89}{section.10.11}
+\contentsline {section}{\numberline {12}Constant integers}{90}{section.10.12}
+\contentsline {section}{\numberline {13}Scratch integers}{90}{section.10.13}
+\contentsline {subsection}{\numberline {13.1}Direct number expansion}{91}{subsection.10.13.1}
+\contentsline {section}{\numberline {14}Primitive conditionals}{91}{section.10.14}
+\contentsline {part}{XI\hspace {1em}The \textsf {l3flag} package: Expandable flags}{93}{part.11}
+\contentsline {section}{\numberline {1}Setting up flags}{93}{section.11.1}
+\contentsline {section}{\numberline {2}Expandable flag commands}{94}{section.11.2}
+\contentsline {part}{XII\hspace {1em}The \pkg {l3prg} package\\ Control structures}{95}{part.12}
+\contentsline {section}{\numberline {1}Defining a set of conditional functions}{95}{section.12.1}
+\contentsline {section}{\numberline {2}The boolean data type}{97}{section.12.2}
+\contentsline {section}{\numberline {3}Boolean expressions}{99}{section.12.3}
+\contentsline {section}{\numberline {4}Logical loops}{101}{section.12.4}
+\contentsline {section}{\numberline {5}Producing multiple copies}{102}{section.12.5}
+\contentsline {section}{\numberline {6}Detecting T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}{}'s mode}{102}{section.12.6}
+\contentsline {section}{\numberline {7}Primitive conditionals}{103}{section.12.7}
+\contentsline {section}{\numberline {8}Nestable recursions and mappings}{103}{section.12.8}
+\contentsline {subsection}{\numberline {8.1}Simple mappings}{103}{subsection.12.8.1}
+\contentsline {section}{\numberline {9}Internal programming functions}{104}{section.12.9}
+\contentsline {part}{XIII\hspace {1em}The \pkg {l3sys} package: System/runtime functions}{105}{part.13}
+\contentsline {section}{\numberline {1}The name of the job}{105}{section.13.1}
+\contentsline {section}{\numberline {2}Date and time}{105}{section.13.2}
+\contentsline {section}{\numberline {3}Engine}{105}{section.13.3}
+\contentsline {section}{\numberline {4}Output format}{106}{section.13.4}
+\contentsline {part}{XIV\hspace {1em}The \pkg {l3clist} package\\ Comma separated lists}{107}{part.14}
+\contentsline {section}{\numberline {1}Creating and initialising comma lists}{107}{section.14.1}
+\contentsline {section}{\numberline {2}Adding data to comma lists}{109}{section.14.2}
+\contentsline {section}{\numberline {3}Modifying comma lists}{109}{section.14.3}
+\contentsline {section}{\numberline {4}Comma list conditionals}{110}{section.14.4}
+\contentsline {section}{\numberline {5}Mapping to comma lists}{111}{section.14.5}
+\contentsline {section}{\numberline {6}Using the content of comma lists directly}{113}{section.14.6}
+\contentsline {section}{\numberline {7}Comma lists as stacks}{113}{section.14.7}
+\contentsline {section}{\numberline {8}Using a single item}{115}{section.14.8}
+\contentsline {section}{\numberline {9}Viewing comma lists}{115}{section.14.9}
+\contentsline {section}{\numberline {10}Constant and scratch comma lists}{116}{section.14.10}
+\contentsline {part}{XV\hspace {1em}The \pkg {l3token} package\\ Token manipulation}{117}{part.15}
+\contentsline {section}{\numberline {1}Creating character tokens}{117}{section.15.1}
+\contentsline {section}{\numberline {2}Manipulating and interrogating character tokens}{119}{section.15.2}
+\contentsline {section}{\numberline {3}Generic tokens}{122}{section.15.3}
+\contentsline {section}{\numberline {4}Converting tokens}{122}{section.15.4}
+\contentsline {section}{\numberline {5}Token conditionals}{123}{section.15.5}
+\contentsline {section}{\numberline {6}Peeking ahead at the next token}{126}{section.15.6}
+\contentsline {section}{\numberline {7}Decomposing a macro definition}{128}{section.15.7}
+\contentsline {section}{\numberline {8}Description of all possible tokens}{129}{section.15.8}
+\contentsline {part}{XVI\hspace {1em}The \pkg {l3prop} package\\ Property lists}{132}{part.16}
+\contentsline {section}{\numberline {1}Creating and initialising property lists}{132}{section.16.1}
+\contentsline {section}{\numberline {2}Adding entries to property lists}{133}{section.16.2}
+\contentsline {section}{\numberline {3}Recovering values from property lists}{133}{section.16.3}
+\contentsline {section}{\numberline {4}Modifying property lists}{134}{section.16.4}
+\contentsline {section}{\numberline {5}Property list conditionals}{134}{section.16.5}
+\contentsline {section}{\numberline {6}Recovering values from property lists with branching}{135}{section.16.6}
+\contentsline {section}{\numberline {7}Mapping to property lists}{135}{section.16.7}
+\contentsline {section}{\numberline {8}Viewing property lists}{136}{section.16.8}
+\contentsline {section}{\numberline {9}Scratch property lists}{137}{section.16.9}
+\contentsline {section}{\numberline {10}Constants}{137}{section.16.10}
+\contentsline {part}{XVII\hspace {1em}The \pkg {l3msg} package\\ Messages}{138}{part.17}
+\contentsline {section}{\numberline {1}Creating new messages}{138}{section.17.1}
+\contentsline {section}{\numberline {2}Contextual information for messages}{139}{section.17.2}
+\contentsline {section}{\numberline {3}Issuing messages}{140}{section.17.3}
+\contentsline {section}{\numberline {4}Redirecting messages}{142}{section.17.4}
+\contentsline {part}{XVIII\hspace {1em}The \pkg {l3file} package\\ File and I/O operations}{144}{part.18}
+\contentsline {section}{\numberline {1}Input--output stream management}{144}{section.18.1}
+\contentsline {subsection}{\numberline {1.1}Reading from files}{146}{subsection.18.1.1}
+\contentsline {section}{\numberline {2}Writing to files}{148}{section.18.2}
+\contentsline {subsection}{\numberline {2.1}Wrapping lines in output}{150}{subsection.18.2.1}
+\contentsline {subsection}{\numberline {2.2}Constant input--output streams, and variables}{151}{subsection.18.2.2}
+\contentsline {subsection}{\numberline {2.3}Primitive conditionals}{151}{subsection.18.2.3}
+\contentsline {section}{\numberline {3}File operation functions}{151}{section.18.3}
+\contentsline {part}{XIX\hspace {1em}The \pkg {l3skip} package\\ Dimensions and skips}{154}{part.19}
+\contentsline {section}{\numberline {1}Creating and initialising \texttt {dim} variables}{154}{section.19.1}
+\contentsline {section}{\numberline {2}Setting \texttt {dim} variables}{155}{section.19.2}
+\contentsline {section}{\numberline {3}Utilities for dimension calculations}{155}{section.19.3}
+\contentsline {section}{\numberline {4}Dimension expression conditionals}{156}{section.19.4}
+\contentsline {section}{\numberline {5}Dimension expression loops}{158}{section.19.5}
+\contentsline {section}{\numberline {6}Dimension step functions}{159}{section.19.6}
+\contentsline {section}{\numberline {7}Using \texttt {dim} expressions and variables}{160}{section.19.7}
+\contentsline {section}{\numberline {8}Viewing \texttt {dim} variables}{161}{section.19.8}
+\contentsline {section}{\numberline {9}Constant dimensions}{162}{section.19.9}
+\contentsline {section}{\numberline {10}Scratch dimensions}{162}{section.19.10}
+\contentsline {section}{\numberline {11}Creating and initialising \texttt {skip} variables}{162}{section.19.11}
+\contentsline {section}{\numberline {12}Setting \texttt {skip} variables}{163}{section.19.12}
+\contentsline {section}{\numberline {13}Skip expression conditionals}{164}{section.19.13}
+\contentsline {section}{\numberline {14}Using \texttt {skip} expressions and variables}{164}{section.19.14}
+\contentsline {section}{\numberline {15}Viewing \texttt {skip} variables}{164}{section.19.15}
+\contentsline {section}{\numberline {16}Constant skips}{165}{section.19.16}
+\contentsline {section}{\numberline {17}Scratch skips}{165}{section.19.17}
+\contentsline {section}{\numberline {18}Inserting skips into the output}{165}{section.19.18}
+\contentsline {section}{\numberline {19}Creating and initialising \texttt {muskip} variables}{166}{section.19.19}
+\contentsline {section}{\numberline {20}Setting \texttt {muskip} variables}{166}{section.19.20}
+\contentsline {section}{\numberline {21}Using \texttt {muskip} expressions and variables}{167}{section.19.21}
+\contentsline {section}{\numberline {22}Viewing \texttt {muskip} variables}{167}{section.19.22}
+\contentsline {section}{\numberline {23}Constant muskips}{168}{section.19.23}
+\contentsline {section}{\numberline {24}Scratch muskips}{168}{section.19.24}
+\contentsline {section}{\numberline {25}Primitive conditional}{168}{section.19.25}
+\contentsline {part}{XX\hspace {1em}The \pkg {l3keys} package\\ Key--value interfaces}{169}{part.20}
+\contentsline {section}{\numberline {1}Creating keys}{170}{section.20.1}
+\contentsline {section}{\numberline {2}Sub-dividing keys}{174}{section.20.2}
+\contentsline {section}{\numberline {3}Choice and multiple choice keys}{174}{section.20.3}
+\contentsline {section}{\numberline {4}Setting keys}{177}{section.20.4}
+\contentsline {section}{\numberline {5}Handling of unknown keys}{177}{section.20.5}
+\contentsline {section}{\numberline {6}Selective key setting}{178}{section.20.6}
+\contentsline {section}{\numberline {7}Utility functions for keys}{179}{section.20.7}
+\contentsline {section}{\numberline {8}Low-level interface for parsing key--val lists}{180}{section.20.8}
+\contentsline {part}{XXI\hspace {1em}The \textsf {l3intarray} package: fast global integer arrays}{182}{part.21}
+\contentsline {section}{\numberline {1}\pkg {l3intarray} documentation}{182}{section.21.1}
+\contentsline {subsection}{\numberline {1.1}Implementation notes}{183}{subsection.21.1.1}
+\contentsline {part}{XXII\hspace {1em}The \textsf {l3fp} package: Floating points}{184}{part.22}
+\contentsline {section}{\numberline {1}Creating and initialising floating point variables}{185}{section.22.1}
+\contentsline {section}{\numberline {2}Setting floating point variables}{186}{section.22.2}
+\contentsline {section}{\numberline {3}Using floating points}{186}{section.22.3}
+\contentsline {section}{\numberline {4}Floating point conditionals}{188}{section.22.4}
+\contentsline {section}{\numberline {5}Floating point expression loops}{189}{section.22.5}
+\contentsline {section}{\numberline {6}Some useful constants, and scratch variables}{191}{section.22.6}
+\contentsline {section}{\numberline {7}Floating point exceptions}{192}{section.22.7}
+\contentsline {section}{\numberline {8}Viewing floating points}{193}{section.22.8}
+\contentsline {section}{\numberline {9}Floating point expressions}{193}{section.22.9}
+\contentsline {subsection}{\numberline {9.1}Input of floating point numbers}{193}{subsection.22.9.1}
+\contentsline {subsection}{\numberline {9.2}Precedence of operators}{195}{subsection.22.9.2}
+\contentsline {subsection}{\numberline {9.3}Operations}{195}{subsection.22.9.3}
+\contentsline {section}{\numberline {10}Disclaimer and roadmap}{202}{section.22.10}
+\contentsline {part}{XXIII\hspace {1em}The \textsf {l3fparray} package: fast global floating point arrays}{205}{part.23}
+\contentsline {section}{\numberline {1}\pkg {l3fparray} documentation}{205}{section.23.1}
+\contentsline {part}{XXIV\hspace {1em}The \pkg {l3sort} package\\ Sorting functions}{206}{part.24}
+\contentsline {section}{\numberline {1}Controlling sorting}{206}{section.24.1}
+\contentsline {part}{XXV\hspace {1em}The \textsf {l3tl-analysis} package: Analysing token lists}{207}{part.25}
+\contentsline {section}{\numberline {1}\pkg {l3tl-analysis} documentation}{207}{section.25.1}
+\contentsline {part}{XXVI\hspace {1em}The \textsf {l3regex} package: Regular expressions in T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}{}}{208}{part.26}
+\contentsline {section}{\numberline {1}Syntax of regular expressions}{208}{section.26.1}
+\contentsline {section}{\numberline {2}Syntax of the replacement text}{213}{section.26.2}
+\contentsline {section}{\numberline {3}Pre-compiling regular expressions}{215}{section.26.3}
+\contentsline {section}{\numberline {4}Matching}{215}{section.26.4}
+\contentsline {section}{\numberline {5}Submatch extraction}{216}{section.26.5}
+\contentsline {section}{\numberline {6}Replacement}{217}{section.26.6}
+\contentsline {section}{\numberline {7}Constants and variables}{217}{section.26.7}
+\contentsline {section}{\numberline {8}Bugs, misfeatures, future work, and other possibilities}{218}{section.26.8}
+\contentsline {part}{XXVII\hspace {1em}The \pkg {l3box} package\\ Boxes}{221}{part.27}
+\contentsline {section}{\numberline {1}Creating and initialising boxes}{221}{section.27.1}
+\contentsline {section}{\numberline {2}Using boxes}{221}{section.27.2}
+\contentsline {section}{\numberline {3}Measuring and setting box dimensions}{222}{section.27.3}
+\contentsline {section}{\numberline {4}Box conditionals}{223}{section.27.4}
+\contentsline {section}{\numberline {5}The last box inserted}{223}{section.27.5}
+\contentsline {section}{\numberline {6}Constant boxes}{223}{section.27.6}
+\contentsline {section}{\numberline {7}Scratch boxes}{223}{section.27.7}
+\contentsline {section}{\numberline {8}Viewing box contents}{224}{section.27.8}
+\contentsline {section}{\numberline {9}Boxes and color}{224}{section.27.9}
+\contentsline {section}{\numberline {10}Horizontal mode boxes}{224}{section.27.10}
+\contentsline {section}{\numberline {11}Vertical mode boxes}{225}{section.27.11}
+\contentsline {section}{\numberline {12}Using boxes efficiently}{227}{section.27.12}
+\contentsline {section}{\numberline {13}Affine transformations}{228}{section.27.13}
+\contentsline {section}{\numberline {14}Primitive box conditionals}{231}{section.27.14}
+\contentsline {part}{XXVIII\hspace {1em}The \textsf {l3coffins} package\\ Coffin code layer}{232}{part.28}
+\contentsline {section}{\numberline {1}Creating and initialising coffins}{232}{section.28.1}
+\contentsline {section}{\numberline {2}Setting coffin content and poles}{232}{section.28.2}
+\contentsline {section}{\numberline {3}Joining and using coffins}{234}{section.28.3}
+\contentsline {section}{\numberline {4}Measuring coffins}{235}{section.28.4}
+\contentsline {section}{\numberline {5}Coffin diagnostics}{235}{section.28.5}
+\contentsline {section}{\numberline {6}Constants and variables}{236}{section.28.6}
+\contentsline {part}{XXIX\hspace {1em}The \textsf {l3color-base} package\\ Color support}{237}{part.29}
+\contentsline {section}{\numberline {1}Color in boxes}{237}{section.29.1}
+\contentsline {part}{XXX\hspace {1em}The \pkg {l3luatex} package: \hologoRobust {LuaTeX}-specific functions}{238}{part.30}
+\contentsline {section}{\numberline {1}Breaking out to Lua{}}{238}{section.30.1}
+\contentsline {section}{\numberline {2}Lua interfaces}{239}{section.30.2}
+\contentsline {part}{XXXI\hspace {1em}The \pkg {l3unicode} package: Unicode support functions}{240}{part.31}
+\contentsline {part}{XXXII\hspace {1em}The \textsf {l3candidates} package\\ Experimental additions to \pkg {l3kernel}}{241}{part.32}
+\contentsline {section}{\numberline {1}Important notice}{241}{section.32.1}
+\contentsline {section}{\numberline {2}Additions to \pkg {l3basics}}{242}{section.32.2}
+\contentsline {section}{\numberline {3}Additions to \pkg {l3box}}{243}{section.32.3}
+\contentsline {subsection}{\numberline {3.1}Viewing part of a box}{243}{subsection.32.3.1}
+\contentsline {section}{\numberline {4}Additions to \pkg {l3coffins}}{243}{section.32.4}
+\contentsline {section}{\numberline {5}Additions to \pkg {l3expan}}{244}{section.32.5}
+\contentsline {section}{\numberline {6}Additions to \pkg {l3fp}}{244}{section.32.6}
+\contentsline {section}{\numberline {7}Additions to \pkg {l3fparray}}{244}{section.32.7}
+\contentsline {section}{\numberline {8}Additions to \pkg {l3file}}{245}{section.32.8}
+\contentsline {section}{\numberline {9}Additions to \pkg {l3flag}}{246}{section.32.9}
+\contentsline {section}{\numberline {10}Additions to \pkg {l3int}}{246}{section.32.10}
+\contentsline {section}{\numberline {11}Additions to \pkg {l3intarray}}{247}{section.32.11}
+\contentsline {subsection}{\numberline {11.1}Working with contents of integer arrays}{247}{subsection.32.11.1}
+\contentsline {section}{\numberline {12}Additions to \pkg {l3msg}}{247}{section.32.12}
+\contentsline {section}{\numberline {13}Additions to \pkg {l3prg}}{248}{section.32.13}
+\contentsline {section}{\numberline {14}Additions to \pkg {l3prop}}{249}{section.32.14}
+\contentsline {section}{\numberline {15}Additions to \pkg {l3seq}}{250}{section.32.15}
+\contentsline {section}{\numberline {16}Additions to \pkg {l3skip}}{251}{section.32.16}
+\contentsline {section}{\numberline {17}Additions to \pkg {l3sys}}{252}{section.32.17}
+\contentsline {section}{\numberline {18}Additions to \pkg {l3tl}}{254}{section.32.18}
+\contentsline {section}{\numberline {19}Additions to \pkg {l3token}}{259}{section.32.19}
+\contentsline {part}{XXXIII\hspace {1em}The \textsf {l3drivers} package\\ Drivers}{261}{part.33}
+\contentsline {section}{\numberline {1}Box clipping}{261}{section.33.1}
+\contentsline {section}{\numberline {2}Box rotation and scaling}{262}{section.33.2}
+\contentsline {section}{\numberline {3}Color support}{262}{section.33.3}
+\contentsline {section}{\numberline {4}Drawing}{262}{section.33.4}
+\contentsline {subsection}{\numberline {4.1}Path construction}{263}{subsection.33.4.1}
+\contentsline {subsection}{\numberline {4.2}Stroking and filling}{264}{subsection.33.4.2}
+\contentsline {subsection}{\numberline {4.3}Stroke options}{265}{subsection.33.4.3}
+\contentsline {subsection}{\numberline {4.4}Color}{265}{subsection.33.4.4}
+\contentsline {subsection}{\numberline {4.5}Inserting T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}{} material}{266}{subsection.33.4.5}
+\contentsline {subsection}{\numberline {4.6}Coordinate system transformations}{266}{subsection.33.4.6}
+\contentsline {section}{\numberline {5}PDF Features}{266}{section.33.5}
+\contentsline {subsection}{\numberline {5.1}PDF Objects}{266}{subsection.33.5.1}
+\contentsline {subsection}{\numberline {5.2}PDF structure}{267}{subsection.33.5.2}
