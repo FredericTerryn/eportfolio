@@ -34,6 +34,13 @@ Verder hebben de EU-landen nationale autoriteiten voor gegevensbescherming aange
 \textit{Commission de la protection de la vie privée \\  Rue de la Presse 35 1000 Bruxelles \\  Website: http://www.privacycommission.be/ \\ 
     Art 29 WP Vice-President: Willem DEBEUCKELAERE, President of the Belgian Privacycommission} 
 
+\begin{figure}[h]
+    \includegraphics[width=\linewidth]{CPVP.jpg}
+    \caption{Commission de la vie privée}
+    http://www.anonymizedata.com/
+\end{figure}
+
+
 Tot slot is er nog een Europees Comité voor gegevensbescherming. In \textcite{Eucom2018} wordt gesteld dat het comité ruime bevoegdheden heeft om geschillen tussen de nationale toezichthoudende autoriteiten te beslechten, adviezen te geven en richtsnoeren vast te stellen over essentiële aspecten van de algemene verordening gegevensbescherming en de politierichtlijn.
 
 \subsection{{Begrippen}}
@@ -47,18 +54,13 @@ Definitie: alle informatie over een geïdentificeerde of identificeerbare natuur
 
 Er zal vaak ter sprake komen dat de persoonsgegevens \textit{verwerkt} worden, de definitie hiervan luidt als volgt: een bewerking of een geheel van bewerkingen met betrekking tot persoonsgegevens of een geheel van persoonsgegevens, al dan niet uitgevoerd via geautomatiseerde procedés, zoals het verzamelen, vastleggen, ordenen, structureren, opslaan, bijwerken of wijzigen, opvragen, raadplegen, gebruiken, verstrekken door middel van doorzending, verspreiden of op andere wijze ter beschikking stellen, aligneren of combineren, afschermen, wissen of vernietigen van gegevens.
 
-
 \subsubsection{Pseudonimisering} 
 Het verwerken van persoonsgegevens op zodanige wijze dat de persoonsgegevens niet meer aan een specifieke betrokkene kunnen worden gekoppeld zonder dat er aanvullende gegevens worden gebruikt, mits deze aanvullende gegevens apart worden bewaard en technische en organisatorische maatregelen worden genomen om ervoor te zorgen dat de persoonsgegevens niet aan een geïdentificeerde of identificeerbare natuurlijke persoon worden gekoppeld. 
 
-\begin{figure}
-    \includegraphics[width=\linewidth]{anonymise.jpg}
-    \caption{Data anonymisation schematische voorstelling}
-    http://www.anonymizedata.com/
-\end{figure}
-
 \subsubsection{Toestemming} 
-De regelgeving is er in de eerste plaats gekomen om mensen te beschermen. Al te vaak werd in het verleden op een dubieuze manier toestemming gevraagd voor de verwerking van persoonsgegevens, en verstonden de betrokken gebruikers niet wat dat allemaal inhield. Daarom stelt de EU nu dat gebruikers heel duidelijk moeten weten welke data ze vrijgeven en wat er met die data mag/zal gedaan worden, in dit moet gepresenteerd worden in ondubbelizinnige, begrijpbare taal. \\ Definitie toestemming van de betrokkene: elke vrije, specifieke, geïnformeerde en ondubbelzinnige wilsuiting waarmee de betrokkene door middel van een verklaring of een ondubbelzinnige actieve handeling hem betreffende verwerking van persoonsgegevens aanvaardt. 
+De regelgeving is er in de eerste plaats gekomen om mensen te beschermen. Al te vaak werd in het verleden op een dubieuze manier toestemming gevraagd voor de verwerking van persoonsgegevens, en verstonden de betrokken gebruikers niet wat dat allemaal inhield. Daarom stelt de EU nu dat gebruikers heel duidelijk moeten weten welke data ze vrijgeven en wat er met die data mag/zal gedaan worden, en dit moet gepresenteerd worden in ondubbelizinnige, begrijpbare taal.
+De toestemming moet specifiek zijn; er kan dus nooit meer een checkbox komen: “Hierbij stem ik in om al mijn persoonlijke info ter beschikking te stellen aan de organisatie”.\\ Definitie \textit{toestemming van de betrokkene}: elke vrije, specifieke, geïnformeerde en ondubbelzinnige wilsuiting waarmee de betrokkene door middel van een verklaring of een ondubbelzinnige actieve handeling hem betreffende verwerking van persoonsgegevens aanvaardt. 
+
 
 \subsubsection{Inbreuken} 
 Het moet ten alle koste vermeden worden, maar het is niet uitgesloten dat bepaalde persoonsgegevens ongewild worden verspreidt. Denk aan hackers, data-leaks etc. 
@@ -79,6 +81,14 @@ Als organisatie of rechtspersoon in het algemeen moet je er van uitgaan dat het 
     
      \item \textbf{Behartiging van de belangen}: de verwerking is noodzakelijk voor de behartiging van de gerechtvaardigde belangen van de verwerkingsverantwoordelijke of van een derde, behalve wanneer de belangen of de grondrechten en de fundamentele vrijheden van de betrokkene die tot bescherming van persoonsgegevens nopen, zwaarder wegen dan die belangen, met name wanneer de betrokkene een kind is. \\
 \end{itemize}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.7]{six_pilars_processing.jpg}
+    \caption{6 voorwaarden om rechtmatig gegevens te verwerken, schematische voorstelling.}
+    https://www.i-scoop.eu/gdpr/legal-grounds-lawful-processing-personal-data/
+\end{figure}
+
 
 \section{{Onderwerpen geschikt voor technische implementaties}}
 
@@ -116,6 +126,12 @@ https://gdpr-info.eu/recitals/
 Recital 26
 1The principles of data protection should apply to any information concerning an identified or identifiable natural person. 2Personal data which have undergone pseudonymisation, which could be attributed to a natural person by the use of additional information should be considered to be information on an identifiable natural person. 3To determine whether a natural person is identifiable, account should be taken of all the means reasonably likely to be used, such as singling out, either by the controller or by another person to identify the natural person directly or indirectly. 4To ascertain whether means are reasonably likely to be used to identify the natural person, account should be taken of all objective factors, such as the costs of and the amount of time required for identification, taking into consideration the available technology at the time of the processing and technological developments. 5The principles of data protection should therefore not apply to anonymous information, namely information which does not relate to an identified or identifiable natural person or to personal data rendered anonymous in such a manner that the data subject is not or no longer identifiable. 6This Regulation does not therefore concern the processing of such anonymous information, including for statistical or research purposes.
 
+\begin{figure}[h]
+    \includegraphics[width=\linewidth]{anonymise.jpg}
+    \caption{Data anonymisation schematische voorstelling}
+    http://www.anonymizedata.com/
+\end{figure}
+
 
 \subsection{Data access control.}
 Een overweging die zeker kan gemaakt worden is welke documenten voor welke personen toegankelijk zijn. Laat ons het het voorbeeld nemen van een kmo die voor bepaalde projecten gegevens verzamelt. Dan moeten enkel de personeelsleden die aan dit project meewerken toegang hebben tot die gegevens.  Vaak zien we echter zo dat er een gemeenschappelijke locatie is waar alle gegevens worden bijgehouden, en die toegankelijk is voor alle werknemers. 
@@ -134,18 +150,52 @@ Menig organisaties die onderzoek uitvoeren, maken gebruik van openbare fora. Den
 Op basis van dit bericht is het niet moeilijk om te concluderen over wie het gaat, en kan een buitenstaander dus afleiden dat die persoon Hiv-positief is. Wat leidt tot de vraag: wat als deze persoon aan de organisatie vraagt om alle persoonlijke gegevens te verwijderen. Dan kan je nog al zijn gegevens in je database anonimiseren, als reacties als deze blijven bestaan heb je niet aan zijn verzoek voldaan. Dat brengt ons naadloos bij het volgende punt: Artificële intelligentie. 
 
 \section{Artificiële intellegentie en GDPR.}
-In het recente verleden heeft Artificiële Intelligentie en bij uitbreiding Machine Learning een geweldige evolutie gemaakt. AI, waarbij vele mensen nog veel te vaak denken aan robotjes die als mensen functioneren, staat ongetwijfeld in zijn kinderschoenen. Er zijn echter al zeer veel toepassingen, ontwikkeld door de 'grotere spelers' uit de informaticawereld, die voor functioneel al zeer goed werk leveren en voor iedere software developer beschikbaar zijn. 
-
-\subsection{Gezichtsherkenning}
-\subsection{title}
+In het recente verleden heeft Artificiële Intelligentie en bij uitbreiding Machine Learning een geweldige evolutie gemaakt. AI, waarbij vele mensen nog veel te vaak denken aan robotjes die als mensen functioneren, staat ongetwijfeld in zijn kinderschoenen. Er zijn echter al zeer veel toepassingen, ontwikkeld door de 'grotere spelers' uit de informaticawereld, die al zeer goed werk leveren en voor iedere software developer beschikbaar zijn. Deze toepassingen bieden oplossingen voor het probleem dat PII zich in vele verschillende vormen kan aanbieden, en niet altijd door scripts wordt herkend.  Bijvoorbeeld: je wil ervoor zorgen dat foto's verwijderd worden waar persoonlijke info op staat, maar neutrale foto's behouden. Hier kan AI een oplossing bieden. 
 
 \subsection{Aanbieders API's voor PII-herkenning}
-Een KMO die wil gebruik maken van AI hoeft dus zelf helemaal geen eigen neurale netwerken op te stellen en moeilijke wiskunde berekingen uitvoeren. Een beter optie is om gebruik te maken van bestaande API's die achter de schermen deze artificiële intelligentie gaan uitvoeren. Hiervoor zijn de laatste jaren talloze opties ontwikkeld. In dit onderzoek zullen de twee grootste aanbieders besproken worden, namelijk \textit{Microsoft} met hun \textit{Azure Cognitive Services} en  \textit{Google Cloud Machine Learning} platform. 
+Een KMO die wil gebruik maken van AI hoeft dus zelf helemaal geen eigen neurale netwerken op te stellen en moeilijke wiskunde berekingen uitvoeren. Een beter optie is om gebruik te maken van bestaande API's die achter de schermen deze artificiële intelligentie gaan uitvoeren. Hiervoor zijn de laatste jaren talloze opties ontwikkeld. In dit onderzoek zullen de twee grootste aanbieders besproken worden, namelijk \textit{Microsoft} met hun \textit{Azure Cognitive Services} en  \textit{Google Cloud Machine Learning} platform. In de volgende secties worden deze twee aanbieders met elkaar vergeleken op vlak van functionaliteit.
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=.4\linewidth]{cognitive_services.png}
+        \caption{Microsofts' Azure cognitive services}
+        \label{fig:sub1}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=.4\linewidth]{google_cloud_ml.png}
+        \caption{Google cloud machine learning.}
+        \label{fig:sub2}
+    \end{subfigure}
+    \caption{De twee grootste aanbieders van een API voor machine learning solutions.}
+    \label{fig:test}
+\end{figure}
+
+\subsection{Gezichtsherkenning}
+De toepassing van machine-learning die ongetwijfeld het wijdst verspreid en verst geëvolueerd is. Dankzij zijn vele implementaties in smartphones, beveiligingsapparatuur, ... is gezichtsherkenning een zeer betrouwbare én snelle technologie geworden. Het is dan ook weinig verrassende dat beide aanbieders (Microsoft en Google) het ter beschikking stellen. 
+
+Op vlak van gebruiksvriendelijkheid wint Microsoft zonder enige moeite. Na enkele minuten opzoekingswerk kom je al snel uit bij een demo hoe je 'Face detection in images' kan gebruiken. 
 
 
+\begin{figure}[h]
+    \includegraphics[width=\linewidth]{Face_recogn_micros_1.png}
+    \caption{Cognitive services - Face recognition. Links de foto, rechts een JSON-file met herkende elementen.}
+    \label{fig:cognitive}
+\end{figure}
 
-BRONNEN !
-Eén van die spelers die AI aanbieden is Microsoft. In Azure kan je gebruik maken van hun Cognitive services, die je een groot potentieel bieden om je software intelligenter te maken. 
+Op \hyperref[fig:cognitive]{figuur 2.5} zie je de gezichtsherkenning van Microsoft in werking. Links een foto met een duidelijk herkenbaar gezicht. Rechts zie je het resultaat. Er wordt een JSON-file uitgeprint met alle herkende elementen. Het eerstgevonden element is het face-id. Dit is de indicator die toont dat een gezicht herkend is. Daarna krijg je nog een heel wat extra elementen, die tot nog toe niet van belang zijn. 
+
+Op de beschikbare demo zijn ook heel wat foto's beschikbaar met meerdere gezichten.
+
+\begin{figure}[h]
+    \includegraphics[width=\linewidth]{Face_recogn_micros_2.png}
+    \caption{Cognitive services - Face recognition. Links de foto, rechts een JSON-file met herkende elementen.}
+    \label{fig:cognitive}
+\end{figure}
+
+Je hebt dus heel wat info over de foto, en hier kan je in kader van persoonlijke informatie meer dan genoeg terug vinden. 
+
 
 \section{{Uitleg Hogent}}
 Dit hoofdstuk bevat je literatuurstudie. De inhoud gaat verder op de inleiding, maar zal het onderwerp van de bachelorproef *diepgaand* uitspitten. De bedoeling is dat de lezer na lezing van dit hoofdstuk helemaal op de hoogte is van de huidige stand van zaken (state-of-the-art) in het onderzoeksdomein. Iemand die niet vertrouwd is met het onderwerp, weet nu voldoende om de rest van het verhaal te kunnen volgen, zonder dat die er nog andere informatie moet over opzoeken \autocite{Pollefliet2011}.
