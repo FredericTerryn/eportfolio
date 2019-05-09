@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "igneous-spanner-240108",
+  "private_key_id": "165b131bb2ff8c0f3b6d7e87642075c3ff7d9dd3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCuOxkNWS7LRHk/\ncQXQnp52xsYDNF6KNnfV+IKyi+qPhT/UhJGk9Gth2u7k7zakiIBRvSWFoe4U9war\nqBGCiPxa+2CuzCzvDG26WCTCsd8+dH0/UFYOKdrI0CLUK7n5elA84GtNTKn05gnZ\nciZeaLFS2iwuTL2P7v7KeMPobmk4do6R92pPkvCfn38z6iX+mPJC6+mI7v7I8Z71\nT6n97iTz+T8Fm0Ky2WvysAHJSn695cuHu+/vrQrs8kHc1wyQtPEXlkp25TZWtZs0\nv5RudkJA1YslWxCAgwtdwV24LfKVKAJ2tkwm2NxtGU8x7eAeEtQEmdqVZ9pqr4JD\n3wuQ9/mDAgMBAAECggEAMiQO0yEZzuSvUhsoNcAYUY1l2fE9zd/b/+eLUW/jupb5\n5iKauZKfvqMfgiH3o0UnTJ63CCywVDc9I7R0CZF7soFKczOOMONuRqTsO12uJg6n\nJsvrYBsafBUuGMpWtJ3HLqXVK4NHHBQBvKLVuPC/K11fPpnWKfB5QfKcSq1PubAm\nCyiL2kHfe1svy5Vxen1u/ZBaTVyGkFEj0JExRXlO69zaI0+zXCNALWn9Xk86drA2\nJ+y77qpa1ZqhLbnrcP283c9Sqg/hGWs6/xFEkGCbMl0Zs2JlHJkS1/zG44jQrYRG\nByn5/mId5edpCXG9qSQBVTU7pWzGSrFR1RrNoL5gkQKBgQDzwG1YdYODoodbFB8I\n6LvL2t6mKFLzotkf35EOmPIU/lJykSTbsKSiEJyqALQ91RRyAZ+uRCbfCh4sBfzX\nqkaBTU7ygT5hWccecnuX4ADnzTaE0cDtOoOgqN/sAvRQHTHY/043kpNPVWF1oouP\n7+TaVvz87ybc4pBmJWmV//vYkQKBgQC2/F5pMuv+/nTFM7/xIQkyHsq1SC4L1GGk\nMQ+RQL/fbrxRtYBZbISU/gqJaRAvmsTIbEng4vzX2OZpio4nJssy5kVo5NVvEYuG\nd26h2AfIEgLiBl5VbVEybkAIHCDvYJ90ckhWRO8bAijVy6Oc9ahvMXoUTqAdveCS\nASU14una0wKBgQCOf1stUJ3O0bBBrZSrF6vZ9B0flAlSh0xZltBtcTpszXUTpwie\nKjlEyWNc+0Zjs3LdZ1ebgBodYAPdhq6WweOv6asSmD4ImXyPryvT0M+Ws+CAa0NX\nLFMRFEi758o+H6Mpka9/S4A069wq8hiW0A7BGgOSNplInmb+YDbGyzzHEQKBgQCN\nm14AsUyaqBZ7qeGnXDZ+l/+tLK+drfzmEKWIdgBGi66m2Pv7uBQeLT7AOhMxk+cn\nZ04BAAhFjfA5yuTZfZcQy8z5MOXPL1e3duOh0cmr1exvOBh2qcOFcHaTEBmYxkB/\n4BUE1hHn59LsKMx0IlP3wOVFo9cbTR7mPoaqXfE1ywKBgFzzPC7i+SE8xpzlMnEK\nkz09be8iemV39Rsl1jLpT4hZp8qhusYb3TKkRNL+0S/jFG9HqgPwpmaMFzlR4Dtz\nC/Tr1y6bPRWk/ld92X12iZiKLVBPksqF93rKP9YlGNzhUk5qwwMMtHcHN/YZB1Z5\ntsvk3mMA8LLAgcOh9wslp3p7\n-----END PRIVATE KEY-----\n",
+  "client_email": "fredericterryn@igneous-spanner-240108.iam.gserviceaccount.com",
+  "client_id": "100590373928888621455",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fredericterryn%40igneous-spanner-240108.iam.gserviceaccount.com"
+}

@@ -95,9 +95,20 @@ Als organisatie of rechtspersoon in het algemeen moet je er van uitgaan dat het 
 Er zijn heel wat stappen die een bedrijf kan ondernemen om op een veiligere manier om te gaan met hun gegevens en om te voldoen aan de richtlijnen die voorgeschreven worden. 
 In de regelgeving wordt een verschil gemaakt tussen kleine/grote organisaties, of in grote mate persoonlijke gegevens verwerkt worden of niet, en dergelijke. In dit werk wordt gefocust op kmo's die een grote hoeveelheid persoonlijke gegevens verwerken, en hoe die specifiek de software die ze daarvoor gebruiken kunnen aanpassen. 
 
+\subsection{Privacy Policy mededeling}
+Wat moet allemaal in je privacy policy? 
+-
+-
+-
+
+
+Splash pages!Volledigheid? 
 
 \subsection{Data security}
 De meest voor de hand liggende. 
+
+\subsection{Data Retention}
+niet lang houden van data, logging wanner is gedaan, data waar pii in zit automatisch verwijderen! 
 
 \subsection{Toestemming van de gebruiker}
 In sectie 2.1.2 wordt toegelicht wat het volgens de GDPR begrepen wordt onder toestemming van de gebruiker. Het is één van de zes opties om te kunnen overgaan tot gegevensverwerking. De GDPR focust vooral op de begrijpelijkheid en duidelijkheid waar de gebruiker toestemming tot geeft. Er zijn vier “voorwaarden voor toestemming” opgenomen in de wetgeving. 
@@ -173,9 +184,10 @@ Een KMO die wil gebruik maken van AI hoeft dus zelf helemaal geen eigen neurale 
 \end{figure}
 
 \subsection{Gezichtsherkenning}
-De toepassing van machine-learning die ongetwijfeld het wijdst verspreid en verst geëvolueerd is. Dankzij zijn vele implementaties in smartphones, beveiligingsapparatuur, ... is gezichtsherkenning een zeer betrouwbare én snelle technologie geworden. Het is dan ook weinig verrassende dat beide aanbieders (Microsoft en Google) het ter beschikking stellen. 
+De toepassing van machine-learning die ongetwijfeld het wijdst verspreid en verst geëvolueerd is. Dankzij zijn vele implementaties in onder andere smartphones en beveiligingsapparatuur is gezichtsherkenning een zeer betrouwbare én snelle technologie geworden. Het is dan ook weinig verrassende dat beide aanbieders (Microsoft en Google) het ter beschikking stellen. 
 
-Op vlak van gebruiksvriendelijkheid wint Microsoft zonder enige moeite. Na enkele minuten opzoekingswerk kom je al snel uit bij een demo hoe je 'Face detection in images' kan gebruiken. 
+\subsubsection{Cognitive services}
+Op vlak van gebruiksvriendelijkheid wint Microsoft zonder enige moeite. Na kort opzoekingswerk kom je al snel uit bij een demo hoe je 'Face detection in images' kan gebruiken. 
 
 
 \begin{figure}[h]
@@ -184,17 +196,39 @@ Op vlak van gebruiksvriendelijkheid wint Microsoft zonder enige moeite. Na enkel
     \label{fig:cognitive}
 \end{figure}
 
-Op \hyperref[fig:cognitive]{figuur 2.5} zie je de gezichtsherkenning van Microsoft in werking. Links een foto met een duidelijk herkenbaar gezicht. Rechts zie je het resultaat. Er wordt een JSON-file uitgeprint met alle herkende elementen. Het eerstgevonden element is het face-id. Dit is de indicator die toont dat een gezicht herkend is. Daarna krijg je nog een heel wat extra elementen, die tot nog toe niet van belang zijn. 
+Op \hyperref[fig:cognitive]{figuur 2.5} zie je de gezichtsherkenning van Microsoft in werking. Dit is een online demo beschikbaar voor iedereen op de website van Cognitive services. Links een foto met een duidelijk herkenbaar gezicht. Rechts zie je het verwerkte resultaat van een interpretratie van wat in de foto te zien is, automatisch gegenereerd. Er wordt een JSON-file uitgeprint met alle herkende elementen. Het eerstgevonden element is het face-id. Vanaf het moment dat een er een face-id aanwezig in de JSON, betekent dit dat een gezicht herkend is. Daarnaast krijg je nog een heel wat extra elementen, die tot nog toe niet van belang zijn. 
 
-Op de beschikbare demo zijn ook heel wat foto's beschikbaar met meerdere gezichten.
+
 
 \begin{figure}[h]
     \includegraphics[width=\linewidth]{Face_recogn_micros_2.png}
     \caption{Cognitive services - Face recognition. Links de foto, rechts een JSON-file met herkende elementen.}
-    \label{fig:cognitive}
+    \label{fig:cognitive2}
 \end{figure}
 
 Je hebt dus heel wat info over de foto, en hier kan je in kader van persoonlijke informatie meer dan genoeg terug vinden. 
+
+\subsubsection{Google cloud}
+Met Google Cloud Vision levert Google een zeer gelijkaardige service. Opnieuw is een online demo beschikbaar die een preview geeft van hoe gezichten op foto's herkend worden. We gebruiken dezelfde foto als in \hyperref[fig:cognitive2]{figuur 2.5}. Het resultaat zie je in figuur 2.7. De interpratie is nagenoeg identiek. Het gezicht werd vlot herkend en er is heel wat extra informatie te zien, zoals 'Joy'. 
+
+\subsubsection{Verschillen}
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=.7\linewidth]{Face_recogn_google1.png}
+		\caption{Google cloud}
+		\label{fig:sub1}
+	\end{subfigure}%
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=.7\linewidth]{Face_recogn_micros_3.PNG}
+		\caption{MS Cognitive Services.}
+		\label{fig:sub2}
+	\end{subfigure}
+	\caption{Eenzelfde foto geïnterpreteerd door beide demo's. Google cloud herkent alle 3 de zichtbare gezichten, terwijl bij MS slechts één van de drie gezichten gevonden wordt.}
+	\label{fig:test}
+\end{figure}
 
 
 \section{{Uitleg Hogent}}
