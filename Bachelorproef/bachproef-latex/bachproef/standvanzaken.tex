@@ -14,7 +14,7 @@ Het is echter noodzakelijk enkele facetten toe te lichten zodat de lezer de nodi
  Het dient als theoretische achtergrond om in hoofdstuk 3 het effectieve onderzoek uit te voeren.
  
  
-\section{{Hoofdelementen GDPR}}
+\section{{GDPR Theoretisch}}
 
 De EU General Data Protection Regulation (GDPR) is een regelgeving ontworpen door de EU, met als bedoeling een eerste stap te bieden naar het teruggeven van controle aan de EU-burgers, over wat er met hun persoonlijke gevegens gebeurt. 
 
@@ -108,6 +108,8 @@ In het vervolg van dit onderzoek zal regelmatig verwezen wroden naar persoonlijk
 \subsubsection{Pseudonimisering} 
 Het verwerken van persoonsgegevens op zodanige wijze dat de persoonsgegevens niet meer aan een specifieke betrokkene kunnen worden gekoppeld zonder dat er aanvullende gegevens worden gebruikt, mits deze aanvullende gegevens apart worden bewaard en technische en organisatorische maatregelen worden genomen om ervoor te zorgen dat de persoonsgegevens niet aan een geïdentificeerde of identificeerbare natuurlijke persoon worden gekoppeld. 
 
+\subsubsection{Anonimiseren}
+
 \subsubsection{Toestemming} 
 De regelgeving is er in de eerste plaats gekomen om mensen te beschermen. Al te vaak werd in het verleden op een dubieuze manier toestemming gevraagd voor de verwerking van persoonsgegevens, en verstonden de betrokken gebruikers niet wat dat allemaal inhield. Daarom stelt de EU nu dat gebruikers heel duidelijk moeten weten welke data ze vrijgeven en wat er met die data mag/zal gedaan worden, en dit moet gepresenteerd worden in ondubbelizinnige, begrijpbare taal.
 Darnaast moet toestemming specifiek zijn.
@@ -167,10 +169,46 @@ Als organisatie of rechtspersoon in het algemeen moet je er van uitgaan dat het 
 \end{figure}
 
 
-\section{Onderwerpen geschikt voor technische implementaties}
+\section{Organisatorische en technische maatregelen.}
+\subsection{onderscheid gestructureerde data en ongestructureerde data}
 
-Er zijn heel wat stappen die een bedrijf kan ondernemen om op een veiligere manier om te gaan met hun gegevens en om te voldoen aan de richtlijnen die voorgeschreven worden.
-In de regelgeving wordt een verschil gemaakt tussen verschillende types organisaties, of in grote mate persoonlijke gegevens verwerkt worden of niet bijvoorbeeld. Ahankelijk hiervan zijn de regels minder streng/strenger. In dit werk wordt gefocust op kmo's die een grote hoeveelheid persoonlijke gegevens verwerken, en hoe deze organisaties specifiek de software die ze daarvoor gebruiken kunnen aanpassen. 
+
+
+
+\subsection{Toestemming van de gebruiker - dit deel staat niet echt op zijn plaats}
+In sectie 2.1.2 wordt toegelicht wat het volgens de GDPR begrepen wordt onder toestemming van de gebruiker. Het is één van de zes opties om te kunnen overgaan tot gegevensverwerking. De GDPR focust vooral op de begrijpelijkheid en duidelijkheid waar de gebruiker toestemming tot geeft. Er zijn enkele voorwaarden voor toestemming opgenomen in de wetgeving. 
+\begin{itemize}
+    \item  Als je gegevens verwerkt op basis van toestemming, moet je als organisatie ten alle tijde bewijs kunnen leveren dat de betrokkene specifiek voor elke soort gegevens toestemming heeft gegeven. 
+    \item  Het verzoek dient in een \textbf{begrijpelijke en gemakkelijk toegankelijke vorm en in duidelijke en eenvoudige taal} opgesteld te zijn. 
+    \item  
+    De toestemming kan ten alle tijde \textbf{ingetrokken worden}, en dit proces is even eenvoudig als het het geven ervan. 
+\end{itemize}
+
+
+
+
+\subsection{Voldoen aan de rechten van de betrokkene}
+
+Eén van de hoofdonderwerpen die de GDPR aansnijdt zijn de rechten van de betrokkene in verband met zijn gegevens. Zelfs al heeft die persoon oorspronkelijk toestemming gegeven om zijn gegevens te verzamelen en verwerken behoudt de volgende rechten.
+
+
+\subsection{klad nog te verwerken: }
+.6.1 Recht van inzage
+Indien een verwerkingsverantwoordelijke de persoonsgegevens van een betrokkene verwerkt, heeft deze laatste volgens artikel 15 van de EU (2016) het recht deze gegevens in te
+zien en hieromtrent extra informatie op te vragen.
+De verwerkingsverantwoordelijke dient hier kosteloos gevolg aan te geven, tenzij de
+verzoeken van de betrokkene ongegrond of buitensporig zijn. Bij repetitieve herhaling
+mag de verwerkingsverantwoordelijke hiervoor een administratieve vergoeding vragen of
+weigeren gevolg te geven aan het verzoek (EU, 2016, art. 12.5).
+
+\chapter{\IfLanguageName{dutch}{Maatregelen}{}}
+\label{ch:Maatregelen}
+
+In vorig hoofdstuk is het theoretisch aspect van de GDPR uitgelegd. In dit hoofdstuk wordt dieper ingegaan op welke maatregelen precies kunnen genomen worden om een onderneming te laten voldoen aan de regelgeving. Er worden \textbf{organisatorische} maatregelen besproken, maar de nadruk ligt op de \textbf{technische maatregelen}.   
+
+In de regelgeving wordt een verschil gemaakt tussen verschillende types organisaties. Bijvoorbeeld: of er al dan niet in grote mate persoonlijke gegevens verwerkt worden. Ahankelijk hiervan zijn de regels minder streng/strenger. In dit werk wordt gefocust op kmo's die een grote hoeveelheid persoonlijke gegevens verwerken. 
+
+\section{Organisatorische en Technische maatregelen}
 
 \subsection{Privacy Policy mededeling}
 De meeste organisaties beschikken over een privacy policy. Dit dient (binnen de scope van de GDPR) om de gebruiker, vooraleer hij/zij persoonlijke info achterlaat, te informeren in welke mate die gegevens zullen bijgehouden worden, en hoe ze worden verwerkt. De GDPR stelt echter enkele nieuwe voorwaarden om de gebruiker te beschermen, vooral tegen het feit dat deze policies vaak onduidelijk zijn, en de gebruiker niet weet waarmee hij akkoord gaat.
@@ -183,13 +221,17 @@ Artikel 12, 13 en 14 (VERWIJZING) van de GDPR geven uitgebreide instructies hoe 
 	\item Moet tijdig aangeboden worden.
 \end{itemize}
 
-Er zijn softwarematig verschillende manieren om privacy policy op een goede manier weer te geven die worden besproken in de sectie 3: Methodologie. 
+Er zijn softwarematig verschillende manieren om privacy policy op een goede manier weer te geven die worden besproken in de sectie 4: Methodologie. 
 
 \subsection{Data security}
-Naast duidelijkheid en openheid over hoe je als organisatie gegevens verwerkt, moet je er ook voor zorgen dat de resultaten hiervan, en bij uitbreiding alle gegevens die je opslaat, binnen je organisatie blijven. Data security op zichzelf is een uitgebreid topic dat niet zal worden besproken in dit onderzoek. 
+Naast duidelijkheid en openheid over hoe je als organisatie gegevens verwerkt, moet je er ook voor zorgen dat de resultaten hiervan, en bij uitbreiding alle gegevens die je opslaat, binnen je organisatie blijven.
+Maatregelen die hier moeten getroffen worden, zoals antivirus, encryptie, ... zijn maatregelen die niet enkel dienen voor de GDPR, maar een organisatie op zijn geheel beschermen. 
+Het is een uitgebreid topic dat niet zal worden besproken in dit onderzoek. 
 
-\subsection{Data Retention}
+
+\subsection{Dataretentie}
 bron %ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/principles-gdpr/how-long-can-data-be-kept-and-it-necessary-update-it_nl
+Met dataretentie wordt bedoeld het bijhouden van internetgegevens. Zowel het bijhouden van gegevens in de loop van de tijd, als op welke plaatsen binnen een organisatie gevgevens worden bijgehouden kunnen issues vormen. 
 
 In artikel 5 van de GDPR onder lid e wordt het volgende gesteld over het bijhouden van persoonlijke gegevens in de tijd:
 
@@ -220,17 +262,8 @@ Naast de correcte beweegredenen voor het bijhouden van de data, dient dit ook op
 %De Europese commissie voo
 %niet lang houden van data, logging wanner is gedaan, data waar pii in zit automatisch verwijderen! 
 
-\subsection{Toestemming van de gebruiker}
-In sectie 2.1.2 wordt toegelicht wat het volgens de GDPR begrepen wordt onder toestemming van de gebruiker. Het is één van de zes opties om te kunnen overgaan tot gegevensverwerking. De GDPR focust vooral op de begrijpelijkheid en duidelijkheid waar de gebruiker toestemming tot geeft. Er zijn vier “voorwaarden voor toestemming” opgenomen in de wetgeving. 
-\begin{itemize}
-    \item  Als je gegevens verwerkt op basis van toestemming, moet je als organisatie ten alle tijde bewijs kunnen leveren dat de betrokkene specifiek voor elke soort gegevens toestemming heeft gegeven. 
-    \item  Het verzoek dient in een \textbf{begrijpelijke en gemakkelijk toegankelijke vorm en in duidelijke en eenvoudige taal} opgesteld te zijn. 
-    \item  
-    De toestemming kan ten alle tijde \textbf{ingetrokken worden}, en dit proces is even eenvoudig als het het geven ervan. 
-\end{itemize}
 
 
- 
 
 \subsection{Pseudo- en anonimisatie van gegevens}
 https://gdpr-info.eu/recitals/
@@ -252,31 +285,39 @@ Recital 26
 1The principles of data protection should apply to any information concerning an identified or identifiable natural person. 2Personal data which have undergone pseudonymisation, which could be attributed to a natural person by the use of additional information should be considered to be information on an identifiable natural person. 3To determine whether a natural person is identifiable, account should be taken of all the means reasonably likely to be used, such as singling out, either by the controller or by another person to identify the natural person directly or indirectly. 4To ascertain whether means are reasonably likely to be used to identify the natural person, account should be taken of all objective factors, such as the costs of and the amount of time required for identification, taking into consideration the available technology at the time of the processing and technological developments. 5The principles of data protection should therefore not apply to anonymous information, namely information which does not relate to an identified or identifiable natural person or to personal data rendered anonymous in such a manner that the data subject is not or no longer identifiable. 6This Regulation does not therefore concern the processing of such anonymous information, including for statistical or research purposes.
 
 \begin{figure}[h]
-    \includegraphics[width=\linewidth]{anonymise.jpg}
-    \caption{Data anonymisation schematische voorstelling}
-    http://www.anonymizedata.com/
+	\includegraphics[width=\linewidth]{anonymise.jpg}
+	\caption{Data anonymisation schematische voorstelling}
+	http://www.anonymizedata.com/
 \end{figure}
 
 
 \subsection{Data access control.}
-Een overweging die zeker kan gemaakt worden is welke documenten voor welke personen toegankelijk zijn. Laat ons het het voorbeeld nemen van een kmo die voor bepaalde projecten gegevens verzamelt. Dan moeten enkel de personeelsleden die aan dit project meewerken toegang hebben tot die gegevens.  Vaak zien we echter zo dat er een gemeenschappelijke locatie is waar alle gegevens worden bijgehouden, en die toegankelijk is voor alle werknemers. 
+TRAININGEN 
 
-\subsection{Voldoen aan de rechten van de betrokkene}
-
-Eén van de hoofdonderwerpen die de GDPR aansnijdt zijn de rechten van de betrokkene in verband met zijn gegevens. Zelfs al heeft die persoon oorspronkelijk toestemming gegeven om zijn gegevens te verzamelen en verwerken behoudt de volgende rechten.
+Een overweging die moet gemaakt worden is welke documenten voor welke personen toegankelijk zijn. Als voorbeeld een kmo die voor bepaalde projecten gegevens verzamelt. Dan moeten enkel de personeelsleden die aan dit project meewerken toegang hebben tot die gegevens.  Vaak zien we echter zo dat er een gemeenschappelijke locatie is waar alle gegevens worden bijgehouden, en die toegankelijk is voor alle werknemers. 
+En kan dat personeel de toegankelijke data lokaal kopiëren? Zijn hieromtrent regels opgesteld? Als onderneming moet je hier rekening mee houden. Antwoorden op deze vragen zijn geformuleerd in hoofdstuk 3. 
 
 \subsubsection{Verzoek tot verwijderen}
 Het technische deel van dit onderzoek zal hier de focus op leggen. Met name wanneer een gebruiker het verzoek indient om al de gegevens die je als organisatie van die persoon bijhoudt, te verwijderen. De eerste stappen die je dan logischerwijs onderneemt is het anonimiseren van zijn opgeslagen gegevens. Denk aan adres, telefoonnummer, enzoverder. 
 
-\subsubsection{\textit{Verborgen} persoonlijke informatie}
-Als een organisatie beslist om informatie over een persoon te anonimiseren of verwijderen, zijn de eerste stappen duidelijk. Naam, adres, telefoonnummer, en alle gelijkaardige info kan uit de databases gehaald worden. 
-Maar persoonlijke informatie kan ook nog op andere plaatsten voorkomen. Een voorbeeld: 
+ 
 
-Menig organisaties die onderzoek uitvoeren, maken gebruik van openbare fora. Denk aan reacties op een post op Facebook. Wanneer zo'n forum eigendom is van de organisatie, en zij beslissen welke content er online blijft en opgeslagen wordt, moet ook hier nagedacht worden over de GDPR. Stel, een gebruiker reageert op een post over Hiv-remmers het volgende: \textit{”Ik vind merk X niet goed, want ik woon in straat Y in dorp Z en ze komen hier niet leveren aan de deur, waardoor A(mijn zoon 12) er altijd om moet in het weekend.”}
-Op basis van dit bericht is het niet moeilijk om te concluderen over wie het gaat, en kan een buitenstaander dus afleiden dat die persoon Hiv-positief is. \\ Wat leidt tot de vraag: Moet dit ook verwijderd worden bij een een verzoek tot verwijderen. Het antwoord is Ja. Maar hoe doen we dit? Een optie is om een manueel alles te gaan nalezen en zelf te beslissen wat verwijderd moet worden. Dit proces is echter tijdrovend en onefficënt. Daarom werd in dit onderzoek op zoek gegaan naar oplossingen, en die zijn gevonden in de vorm van Machine learning-Artificiële intelligentie. 
+\section{Scope: verwerken niet-structurele data.}
 
-\section{Artificiële intellegentie en GDPR.}
-In het recente verleden heeft Artificiële Intelligentie en bij uitbreiding Machine Learning een geweldige evolutie gemaakt. AI, waarbij vele mensen nog veel te vaak denken aan robotjes die als mensen functioneren, staat ongetwijfeld in zijn kinderschoenen. Er zijn al veel toepassingen, ontwikkeld door de 'grotere spelers' uit de informaticawereld. Deze toepassingen leveren al zeer bruikbare en betrouwbare resultaten, en zijn voor iedere software developer beschikbaar. Deze toepassingen kunnen oplossingen bieden voor het probleem dat PII zich in vele verschillende vormen kan aanbieden, en niet altijd door scripts wordt herkend.  Voorbeeld: je wil ervoor zorgen dat foto's verwijderd worden waar persoonlijke info op staat, maar neutrale foto's behouden.
+Gegevens verwijderen uit niet-structurele data is een gevorderde maatregel die technisch uitdagender is dan vorig vermelde maatregelen, en is daarom opgedeeld in een apart hoofdstuk. Hier wordt 
+beschreven hoe persoonlijke informatie precies kan voorkomen in niet-structurele data, en welke oplossingen voorhanden zijn om deze te zoeken en eventueel verwijderen. Binnen dit onderzoek
+worden die oplossingen ook praktisch getest in hoofdstuk 4. 
+
+\subsection{Persoonlijke informatie in niet-structurele data}
+Als een organisatie beslist om informatie over een persoon te anonimiseren of verwijderen, zijn de eerste stappen duidelijk. Alle structurele data verwijderen/anonimiseren. Maar ook in niet-structurele data kan persoonlijke informatie voorkomen. Een voorbeeld: 
+
+Menig organisaties die onderzoek uitvoeren, maken gebruik van openbare fora. Denk aan reacties op een post op Facebook. Wanneer zo'n forum eigendom is van de organisatie, en zij beslissen welke inhoud er online blijft en opgeslagen wordt, moet ook hier nagedacht worden over de GDPR. Stel, een gebruiker reageert op een post over Hiv-remmers het volgende: \textit{”Ik vind merk X niet goed, want ik woon in straat Y in dorp Z en ze komen hier niet leveren aan de deur, waardoor A(mijn zoon 12) er altijd om moet in het weekend.”}
+Op basis van dit bericht is het niet moeilijk om te concluderen over wie het gaat, en kan een buitenstaander dus afleiden dat die persoon Hiv-positief is. \\ Wat leidt tot de vraag: Moet dit soort data ook verwijderd worden bij een een verzoek tot verwijderen? Het antwoord hierop is Ja.
+
+ Maar hoe kan dit uitgevoerd worden? Een optie is om een manueel alles te gaan nalezen en zelf te beslissen wat verwijderd moet worden. Dit proces is echter tijdrovend en onefficënt. Daarom werd in dit onderzoek verder op zoek gegaan naar oplossingen, en die zijn gevonden in de vorm van Machine learning en Artificiële intelligentie.
+
+
+In het recente verleden heeft Artificiële Intelligentie en bij uitbreiding Machine Learning een geweldige evolutie gemaakt. AI, waarbij vele mensen nog veel te vaak denken aan robotjes die als mensen functioneren, staat ongetwijfeld in zijn kinderschoenen. Er zijn al veel toepassingen, ontwikkeld door de 'grotere spelers' uit de informaticawereld. Deze toepassingen leveren bruikbare en betrouwbare resultaten, en zijn voor iedere software developer beschikbaar. Ze kunnen oplossingen bieden voor het probleem dat PII zich in vele verschillende vormen kan aanbieden (structureel en niet-structureel), en niet altijd door scripts wordt herkend.  
 
 \subsection{Aanbieders API's voor PII-herkenning}
 Een KMO die wil gebruik maken van AI hoeft dus geen neurale netwerken op te stellen en moeilijke wiskunde berekingen uit te voeren. Een beter optie is om gebruik te maken van bestaande API's die achter de schermen deze artificiële intelligentie gaan uitvoeren. Hiervoor zijn de laatste jaren talloze opties ontwikkeld. In dit onderzoek zullen de twee grootste aanbieders besproken worden. Beide Microsoft en Google hebben een online computing-platform waar internet diensten op worden aangeboden.\textit{Microsoft Azure platform} met \textit{Cognitive Services} en  \textit{Google} met \textit{Google Cloud platform}. In de volgende secties worden deze twee aanbieders met elkaar vergeleken op vlak van functionaliteit.
@@ -284,21 +325,21 @@ Een KMO die wil gebruik maken van AI hoeft dus geen neurale netwerken op te stel
 Dit onderzoek is uitgevoerd in samenwerking met InSites Consulting, die op moment van schrijven reeds gebruik maakt van de services van Microsoft Azure. Vandaar is er een voorkeur voor het werken met Cognitive Services. Verder in dit onderzoek zal echter blijken dat Google Cloud op bepaalde vlakken meer mogelijkheden biedt. Afhankelijk daarvan zal in de methodologie met één van beide, of beide technologieën gewerkt worden. 
 
 \begin{figure}[h]
-    \centering
-    \begin{subfigure}{0.5\textwidth}
-        \centering
-        \includegraphics[width=.4\linewidth]{cognitive_services.png}
-        \caption{Microsofts' Azure cognitive services}
-        \label{fig:sub11}
-    \end{subfigure}%
-    \begin{subfigure}{0.5\textwidth}
-        \centering
-        \includegraphics[width=.4\linewidth]{google_cloud_ml.png}
-        \caption{Google cloud machine learning.}
-        \label{fig:sub22}
-    \end{subfigure}
-    \caption{De twee grootste aanbieders van een API voor machine learning solutions.}
-    \label{fig:test2}
+	\centering
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[width=.4\linewidth]{cognitive_services.png}
+		\caption{Microsofts' Azure cognitive services}
+		\label{fig:sub11}
+	\end{subfigure}%
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[width=.4\linewidth]{google_cloud_ml.png}
+		\caption{Google cloud machine learning.}
+		\label{fig:sub22}
+	\end{subfigure}
+	\caption{De twee grootste aanbieders van een API voor machine learning solutions.}
+	\label{fig:test2}
 \end{figure}
 
 \subsubsection{Microsoft Azure}
@@ -325,9 +366,9 @@ Cognitive services biedt op zijn website een demo aan van wat de API precies kan
 
 
 \begin{figure}[h]
-    \includegraphics[width=\linewidth]{Face_recogn_micros_1.png}
-    \caption{Cognitive services - Face recognition. Links de foto, rechts een JSON-file.}
-    \label{fig:cognitive}
+	\includegraphics[width=\linewidth]{Face_recogn_micros_1.png}
+	\caption{Cognitive services - Face recognition. Links de foto, rechts een JSON-file.}
+	\label{fig:cognitive}
 \end{figure}
 
 Op \hyperref[fig:cognitive]{figuur 2.5} zie je de gezichtsherkenning van Microsoft in werking. Dit is een online demo beschikbaar voor iedereen op de website van Cognitive services. Links op de figuur staat een foto met een duidelijk herkenbaar gezicht. Rechts staat het verwerkte resultaat van een interpretratie van wat in de foto te zien is, automatisch gegenereerd. Er wordt een JSON-file uitgeprint met alle herkende elementen. Het eerstgevonden element is het face-id. Zodra er een face-id aanwezig in de JSON, betekent dit dat een gezicht herkend is. Daarnaast krijg je nog een heel wat extra elementen, die tot nog toe niet van belang zijn. 
@@ -365,14 +406,3 @@ Er is alvast een tool aanwezig die tekst herkent in foto's. Op die manier kan je
 \subsection{Gesproken tekst}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-\subsection{klad nog te verwerken: }
-.6.1 Recht van inzage
-Indien een verwerkingsverantwoordelijke de persoonsgegevens van een betrokkene verwerkt, heeft deze laatste volgens artikel 15 van de EU (2016) het recht deze gegevens in te
-zien en hieromtrent extra informatie op te vragen.
-De verwerkingsverantwoordelijke dient hier kosteloos gevolg aan te geven, tenzij de
-verzoeken van de betrokkene ongegrond of buitensporig zijn. Bij repetitieve herhaling
-mag de verwerkingsverantwoordelijke hiervoor een administratieve vergoeding vragen of
-weigeren gevolg te geven aan het verzoek (EU, 2016, art. 12.5).
-
-
-[7-20]

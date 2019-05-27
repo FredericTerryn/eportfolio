@@ -15,7 +15,7 @@ Een eerste stap bij het praktisch onderzoeken naar welke verbeteringen een bedri
 
 In de eerste kolom staan de onderwerpen die software oplossingen voor de GDPR voorstellen. Een vinkje in tweede kolom betekent dat InSites dit reeds op een goede manier geïmplementeerd heeft. Een vinkje in de derde kolom betekent dat dit onderwerp nog niet in plaats is/ nog kan verbeterd worden. Alle onderwerpen zijn in 'stand van zaken' in algemene vorm uitgelegd, en worden verder in dit onderzoek specifiek voor InSites Consulting geëvalueerd. 
 
-KOLOM NOG UP TE DATEN 
+TABEL NOG UP TE DATEN 
 
 	\begin{tabularx}{\linewidth}{ |X|l|l| } 
 		\hline
@@ -105,7 +105,7 @@ Een aanvullende ingebouwd optie, \textbf{'Restrict Access'}, biedt de mogelijkhe
 
 
 \subsubsection{Logging en verwijdering}
-Aanvullend op het beschermen van de afzonderlijke Excel-bestanden, kan je ook algemeen bijhouden waar data zich overal bevindt op welk moment. 
+LORET IPSUM. 
 
 \subsubsection{Anonimisering}
  Dit is, om verscheidene eerder aangehaalde redenen, niet wenselijk. 
@@ -355,7 +355,7 @@ De ander weergegeven info zoals formaat en dominante kleur zijn minder interessa
 \subsubsection{Stap 3: Resultaten gebruiken om PII-bevattende foto's te verwijderen.}
 In deze stap is de applicatie verder ontwikkeld zodat hij niet langer toont welke informatie er in de foto's staat, maar aan de hand van deze informatie bepaalde foto's verwijdert. 
 
-Dit gaat als volgt in z'n werk: Microsoft biedt 57 herkenbare categorieën aan. Deze kunnen worden onderverdeeld in categoriën die mogelijk wijzen op aanwezigheid van persoonlijke info, en neutrale categorieën. Opgelet: dit is een eigen keuze voor elke onderneming die dit implementeert, veel categorieën zijn voor disucussie vatbaar. Bijvoorbeeld: alle categorieëen met 'Building'. Deze gebouwen kunnen huizen zijn, die dus verwijzen naar personen, of fabrieken die helemaal geen persoonlijke info bevatten. Op welke categorieën gefilterd wordt is dus een afweging die moet genomen worden. 
+Dit gaat als volgt in z'n werk: Microsoft biedt \textbf{57 herkenbare categorieën} aan. Deze kunnen worden onderverdeeld in categoriën die mogelijk wijzen op aanwezigheid van persoonlijke info, en neutrale categorieën. Opgelet: dit is een eigen keuze voor elke onderneming die dit implementeert, veel categorieën zijn voor disucussie vatbaar. Bijvoorbeeld: alle categorieëen met 'Building'. Deze gebouwen kunnen huizen zijn, die dus verwijzen naar personen, of fabrieken die helemaal geen persoonlijke info bevatten. Op welke categorieën gefilterd wordt is dus een afweging die moet genomen worden. 
 In dit onderzoek zijn volgende keuzes gemaakt: 
 
 \textbf{Categorieën met mogelijk PII :}building\_, building\_arch, building\_brickwall, building\_church, building\_corner, building\_doorwindows, building\_pillar, building\_stair, building\_street, indoor\_, indoor\_churchwindow, indoor\_court, indoor\_doorwindows, indoor\_marketstore,
@@ -427,11 +427,99 @@ indoor\_room,
 ,sky\_cloud
 ,sky\_sun
 
-Dit is, binnen de applicatie, de \textunderscore{eerste filter}. De input is een lijst met foto's.
-Elke foto die door cognitive services wordt toegewezen aan een \textunderscore{categorie} van de eerste groep (categorie met mogelijk PII), wordt uit die lijst verwijderd. Hiermee zouden al alle foto's met mensen op moeten verwijderd zijn. Dit is echter niet sluitend, dus is het aan te raden een \textunderscore{tweede filter} in te stellen als controle, op basis van \textunderscore{tags}. 
+Dit is, binnen de applicatie, de \underline{eerste filter}. De input is een lijst met foto's.
+Elke foto die door cognitive services wordt toegewezen aan een \textunderscore{categorie} van de eerste groep (categorie met mogelijk PII), wordt uit die lijst verwijderd. Hiermee zouden al alle foto's met mensen op moeten verwijderd zijn.
 
 \subsubsection{stap 4: betrouwbaarheidstest}
-HIER NU VOORBEELD VAN grote hoeveelheid FOTO's. bijvoorbeeld 100 geprobeerd, 65 zelf aangeduid als pii en 80 zijn verwijderd door de applicatie. 
+Als test zijn 38 diverse foto's verzameld (zie bijlage voor alle foto's). Voornamelijk foto's van mensen in diverse situaties, met duidelijke/onduidelijke verlichting, achtergrond, enzoverder. 
+Daarnaast zijn ook foto's geselecteerd van huizen en andere gebouwen. De bedoeling is om te vergelijken hoeveel van deze foto's door de applicatie herkend worden als persoonlijke informatie bevattend, ten opzichte van wat de schrijvers van dit onderzoek van mening zijn. f
+
+
+Na interpretatie van de foto's krijgen we volgende resultaten: 
+\begin{itemize}
+	\item Foto's herkend als PII door onderzoeker: 27/40
+	\item Foto's herkend als PII door applicatie: 22/40
+\end{itemize}
+Dit lijkt op het eerste zicht een vrij gelijklopende score. Maar als de resultaten beter bekeken worden blijkt dat er op verschillende foto's zijn aangeduid. (zie onderstaande tabel)
+
+\begin{tabularx}{\linewidth}{ |l|l|l|X| } 
+	\hline
+	Fotonummer & PII-onderzoeker & PII-applicatie & Duidelijk fout  \\ [0.5ex]
+	
+	1 & Ja & Ja & \\
+	2 & Ja & Ja & \\
+	3 & Ja & Ja & \\
+	4& Ja & Nee & Ja (kinderen) \\
+	5& Ja & Nee & Ja (kind)\\
+	6 & Ja & Ja & \\
+	7 & Ja & Ja & \\
+	8 & Ja & Nee & Ja(kinderen) \\
+	9 & Ja & Ja & \\
+	10 & Ja & Nee & Ja(kinderen) \\
+	11 & Ja & Ja & \\
+	12 & Ja & Ja & \\
+	13 & Ja & Ja & \\
+	14 & Nee & Nee & \\
+	15 & Nee & Nee & \\
+	16 & Ja & Nee & Ja \\
+	17 & Ja & Ja & Nee  \\
+	18 & Ja & Ja & \\
+	19 & Ja & Nee & Ja \\
+	20 & Ja & Ja & \\
+	21 & Ja & Ja & \\
+	22 & Ja & Ja & \\
+	23 & Ja & Ja & \\
+	24 & Ja & Ja & \\
+	25 & Ja & Ja & \\
+	26 & Ja & Ja & \\
+	27 & Nee & Nee & \\
+	28 & Ja & Nee & Nee\\
+	29 & Nee & Nee & \\
+	30 & Ja & Ja & \\
+	31 & Nee & Ja & \\
+	32 & Nee & Nee & \\
+	33 & Ja & Ja & \\
+	34 & Nee & Ja & \\
+	35 & Nee & Nee & \\
+	36 & Nee & Ja & Nee\\
+	37 & Ja & Ja & \\
+	38 & Ja & Nee & Ja \\
+	\hline
+	
+\end{tabularx}
+
+\subsubsection{stap 5: opkrikken betrouwbaarheidsniveau}
+Het is duidelijk dat bij een aantal foto's de applicatie niet zegt: dit behoort tot een PII-categorie. Als dus enkel gefiltert wordt op zijn de resultaten niet betrouwbaar. De meest voorkomende fout is wanneer er mensen in beeld zijn, maar om allerhande redenen op iets onduidelijkere wijze. 
+
+Een volgende stap is om te kijken of dit kan verbeterd worden. Daarvoor worden de JSON resultaten van de foto's die door de mens als PII herkend worden, maar niet door de applicatie, er bijgehaald. 
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=.7\linewidth]{Fotosstest/2.jpg}
+		\caption{Google cloud}
+		\label{fig:qsdfqsdf}
+	\end{subfigure}%
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=.7\linewidth]{Fotosstest/2a.PNG}
+		\caption{MS Cognitive Services.}
+		\label{fig:sub2}
+	\end{subfigure}
+	\caption{Eenzelfde foto geïnterpreteerd door beide demo's. Google cloud herkent alle 3 de zichtbare gezichten, terwijl bij MS slechts één van de drie gezichten gevonden wordt.}
+	\label{fig:teqsdfqsdfst}
+\end{figure}
+
+Cognitive services is er voor deze foto niet in geslaagd om een categorie toe te kennen aan de foto. Maar tussen de tags staat wel helemaal bovenaan: 'person'. Dit doet vermoeden dat wanneer er bijkomend op tags gefiltert wordt, er beter betrouwbare resultaten kunnen geboekt worden. 
+
+Volgende tags worden toegevoegd als filter in de applicatie: 'person', 'child', 'young', 'man', 'girl', 'boy', 'girl'
+Als nu een nieuwe betrouwbaardheidstest wordt gedaan krijgen we volgende resultaten: 
+\begin{itemize}
+	\item Foto's herkend als PII door onderzoeker: 27/40
+	\item Foto's herkend als PII door applicatie: 34/40
+\end{itemize}
+ffkk
 
 \begin{figure}[h]
 	\centering
