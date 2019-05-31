@@ -128,11 +128,4 @@
   url    = {https://cloud.google.com/dlp/},
 }
 
-@WWW{MadronaVentureLabs2017,
-  author = {MadronaVentureLabs},
-  title  = {Anonymize Data},
-  year   = {2017},
-  url    = {http://www.anonymizedata.com/},
-}
-
 @Comment{jabref-meta: databaseType:biblatex;}
