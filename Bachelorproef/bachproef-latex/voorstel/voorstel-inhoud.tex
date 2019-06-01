@@ -3,24 +3,26 @@
 \section{Introductie} % The \section*{} command stops section numbering
 \label{sec:introductie}
 
-Hier introduceer je werk. Je hoeft hier nog niet te technisch te gaan.
+De EU heeft de General Data Protection Regulation (GDPR) aangenomen. Deze regelgeving is in het leven geroepen om internetgebruikers een betere beveiliging van, en beheer over, persoonlijke gegevens te bieden. Vanaf mei 2018 moet elke organisatie kunnen aantonen welke gegevens verzameld worden, hoe ze deze gegevens gebruikt en hoe ze die beveiligt. (PORTAL2018) Daarnaast heeft elke gebruiker ten alle tijde het recht om vergeten te worden: een verwijdering van al zijn persoonlijke gegevens uit het systeem. 
 
-Je beschrijft zeker:
+Deze regelgeving is van toepassing op iedereen die gegevens opvraagt en verzamelt van internetgebruikers binnen de Europese Unie. Binnen grote organisaties is er vaak voor nieuwe software een bedrijfsstatement voor de werknemers welke methodes gebruikt  worden en hoe wordt voldaan aan de GDPR. Voor bestaande software is het vaak veel moeilijker. In software pakketten die al jaren bestaan zijn gegevens vaak een eigen leven gaan leiden. Volgens de GDPR moeten je nu op al moment al deze gegevens overal en volledig kunnen verwijderen, kunnen aantonen wie op welk moment toegang heeft gekregen, enzovoort. Vaak zijn er al minimale aanpassingen gemaakt binnen bedrijven, en zijn de privacy verklaringen geüpdatet. Maar dat is lang niet voldoende. Een grote uitdaging is om te zoeken waar gegevens zich allemaal bevinden, en wanneer ze verwijderd moeten worden dit op elke plek te doen, doorheen de structuur van de software.   
 
-\begin{itemize}
-  \item de probleemstelling en context
-  \item de motivatie en relevantie voor het onderzoek
-  \item de doelstelling en onderzoeksvraag/-vragen
-\end{itemize}
+Aangezien deze regelgeving heel jong is, en van toepassing is op alle gegevens van elke Europese gebruiker, zijn er nog heel veel vragen onbeantwoord. In de moderne samenleving waar privacy beleid steeds belangrijker wordt, is het van essentieel belang dat bedrijven zo snel mogelijk volledig kunnen voldoen aan de GDPR en hiervoor efficiënte oplossingen ter beschikking hebben. 
+
+Vanwege de jonge leeftijd zijn er nog geen uitgebreide studies geschreven die een compleet overzicht bieden van de beste oplossingen en die developers kunnen helpen om te beslissen hoe ze hun bestaande software moeten aanpassen. Daarnaast zal dit onderzoek eerst specifiek uitgevoerd worden op een software pakket binnen een bedrijf.  
+Wat wel ter beschikking is, is informatie in  korte blogs en tutorials, waarvan de betrouwbaarheid niet kan gegarandeerd worden. Voorbeelden daarvan zijn als een persoon een volledig overzicht wil krijgen van wat wel en niet kan, en welke tools hiervoor best gebruikt kunnen worden, zal hij vaak een groot aantal verschillende bronnen moeten raadplegen. In vele gevallen spreken deze bronnen elkaar tegen of zijn er kleine onduidelijkheden, en de lezer zal telkens zelf de betrouwbaarheid moeten inschatten. 
+
 
 %---------- Stand van zaken ---------------------------------------------------
 
 \section{State-of-the-art}
 \label{sec:state-of-the-art}
 
-Hier beschrijf je de \emph{state-of-the-art} rondom je gekozen onderzoeksdomein. Dit kan bijvoorbeeld een literatuurstudie zijn. Je mag de titel van deze sectie ook aanpassen (literatuurstudie, stand van zaken, enz.). Zijn er al gelijkaardige onderzoeken gevoerd? Wat concluderen ze? Wat is het verschil met jouw onderzoek? Wat is de relevantie met jouw onderzoek?
+Zoals in de introductie beschreven is de GDPR een zeer actuele regelgeving. Het is echter niet volledig nieuw, maar een vernieuwing van een bestaande regelgeving. De vorige versie dateerde van 1995 en was  door de realiteit compleet achterhaald. 
 
-Verwijs bij elke introductie van een term of bewering over het domein naar de vakliteratuur, bijvoorbeeld~\autocite{Doll1954}! Denk zeker goed na welke werken je refereert en waarom.
+Europese General Data Protection Regulation vs. actuele gegevensverwerking en -beveiliging voor software developers: een vergelijkende studie en overzicht van best practices. — 2/2 
+
+
 
 % Voor literatuurverwijzingen zijn er twee belangrijke commando's:
 % \autocite{KEY} => (Auteur, jaartal) Gebruik dit als de naam van de auteur
@@ -35,17 +37,17 @@ Je mag gerust gebruik maken van subsecties in dit onderdeel.
 \section{Methodologie}
 \label{sec:methodologie}
 
-Hier beschrijf je hoe je van plan bent het onderzoek te voeren. Welke onderzoekstechniek ga je toepassen om elk van je onderzoeksvragen te beantwoorden? Gebruik je hiervoor experimenten, vragenlijsten, simulaties? Je beschrijft ook al welke tools je denkt hiervoor te gebruiken of te ontwikkelen.
+In deze paper zal onderzocht worden in hoeverre developers rekening moeten houden met de GDPR en hoe die op dit moment veelal wordt geïmplementeerd. Er zal aanvankelijk onderzoek gedaan worden naar enerzijds het software pakket. De weg die gegevens kunnen afleggen, wie er allemaal toegang tot heeft, hoe dit bijgehouden wordt enzovoort. Anderzijds zal de GDPR beter bekeken worden om na te gaan aan wat zeker moet voldaan worden, en op welke manieren. Hieruit zal geconcludeerd worden waar er aanpassingen moeten gebeuren zodat het aangeboden software pakket voldoet aan de regelgeving. Deze aanpassingen zullen uitgevoerd worden, en veralgemeend voor andere software pakketten waar mogelijk.  
 
 %---------- Verwachte resultaten ----------------------------------------------
 \section{Verwachte resultaten}
 \label{sec:verwachte_resultaten}
-
-Hier beschrijf je welke resultaten je verwacht. Als je metingen en simulaties uitvoert, kan je hier al mock-ups maken van de grafieken samen met de verwachte conclusies. Benoem zeker al je assen en de stukken van de grafiek die je gaat gebruiken. Dit zorgt ervoor dat je concreet weet hoe je je data gaat moeten structureren.
+Na het onderzoeken van de software moet er een duidelijk overzicht zijn van wat er wanneer gebeurt met alle gegevens, en hoe dit best kan gecontroleerd worden. Als resultaat zullen er zowel concrete oplossingen volgen die uit te voeren zijn op de bestaande software, alsook algemene, duidelijke en structurele oplossingen voor andere software pakketten die zich willen aanpassen aan de GDPR. 
 
 %---------- Verwachte conclusies ----------------------------------------------
 \section{Verwachte conclusies}
 \label{sec:verwachte_conclusies}
 
-Hier beschrijf je wat je verwacht uit je onderzoek, met de motivatie waarom. Het is \textbf{niet} erg indien uit je onderzoek andere resultaten en conclusies vloeien dan dat je hier beschrijft: het is dan juist interessant om te onderzoeken waarom jouw hypothesen niet overeenkomen met de resultaten.
+ 
+Verwacht wordt dat in bestaande software pakketten het een heel moeilijke opgave is te vinden wat er doorheen de volledige levensduur allemaal met gegevens gebeurt. Wel moet het mogelijk zijn deze gegevens optimaal te beveiligen, en ervoor te zorgen dat de privacy van gebruikers in verhoogde mate kan gegarandeerd worden. Het is vooral belangrijk dat organisaties kunnen aantonen dat ze uitgebreide stappen hebben ondernomen om software aan te passen aan de GDPR, al wordt verwacht dat perfectie hierin een utopie zal blijven.  
 
